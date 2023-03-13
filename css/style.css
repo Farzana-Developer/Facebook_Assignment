@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600;700&display=swap');
+:root{
+    --container-width-lg: 85%;
+    --container-width-md: 90%;
+    --container-width-sm: 94%;
+    --bg: #f0f2f5;
+    --primary: #1c1e21;
+    --second: #737373;
+    --main: #1877f2;
+    --last: #42b72a;
+}
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    outline-offset: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    list-style: none;
+    scroll-behavior: smooth;
+    transition: all .5s linear;
+}
+body{
+    line-height: 1.5;
+    background-color: #ffff;
+}
+.container{
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+/*======main part start====*/
+section{
+    background-color: var(--bg);
+}
+.main_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 11rem;
+}
+.main_left{
+    width: 50%;
+}
+.main_left img{
+    width: 70%;
+    cursor: pointer;
+}
+.main_left .text{
+        font-size: 1.5rem;
+        color: #000;
+        font-weight: 500;
+        margin-top: -23px;
+        margin-left: 41px;
+}
+.login_area{
+    display: block;
+    align-items: center;
+    background-color: #ffff;
+    padding: 1rem;
+    border-radius: 19px;
+}
+.main_right{
+    padding-top: 6rem;
+    width: 37%;
+}
+form input{
+    margin-bottom: 0.6rem;
+    font-size: 1rem;
+    padding-right: 9rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-left: 0.9rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ddd9d9;
+    max-width: 100%;
+}
+form input:nth-child(3){
+    background-color: var(--main);
+    color: #ffff;
+    font-size: 1.2rem;
+    padding: .6rem 7.45rem;
+    font-weight: 600;
+    margin-top: 1.2rem;
+    cursor: pointer;
+}
+form input:nth-child(2){
+    margin-top: 1.2rem;
+}
+.login_area a{
+    display: block;
+    color: var(--main);
+    padding: .5rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-bottom: 2px solid #ddd9d9;
+    width: 93%;
+}
+form input:nth-child(3):hover{
+    background: #ffff;
+    color: var(--main);
+    border: 1px solid var(--main);
+}
+.login_area button{
+    color: #ffff;
+    background-color: var(--last);
+    text-align: center;
+    padding: .6rem 1.7rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: .5rem;
+    border: 1px solid var(--last);
+    margin: 1.8rem auto;
+    cursor: pointer;
+    display: block;
+}
+.login_area button:hover{
+    background: #ffff;
+    color: var(--last);
+    border: 1px solid var(--last);
+}
+.main_right .text_01{
+    color: var(--second);
+    font-size: .8rem;
+    margin-top: 1.2rem;
+    text-align: center;
+    font-weight: 600;
+}
+.main_right .text_01>span{
+    color: black;
+    cursor: pointer;
+}
+/*======main part End====*/
+/*======Footer part start====*/
+.footer_container{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.footer_top ul{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 1rem 0;
+   width: 80%;
+   flex-wrap: wrap;
+}
+.footer_top ul li a, .footer_middle ul li a{
+    color: var(--second);
+    font-size: .8rem; 
+}
+.footer_top ul li a:hover, .footer_middle ul li a:hover{
+    text-decoration: underline;
+}
+.footer_top ul li.plus_sign a{
+    font-size: 1.1rem; 
+    padding: 0 .4rem;
+   background-color: #f5f1f1;
+   border: 1px solid #ddd9d9;
+   padding-left: 0.8rem;
+}
+.footer_top ul li.plus_sign a:hover{
+    text-decoration: none;
+    background-color: #ffff;
+}
+.footer_middle ul{
+    display: flex;
+    flex-wrap: wrap;  
+    width: 100%;
+}
+.footer_middle ul li{
+    padding-left: 0.7rem;
+}
+
+.footer_middle ul li:first-child{
+    padding-left: 0;
+}
+
+.footer_middle ul li:nth-child(15){
+    padding-left: 0;
+}
+.footer_middle ul li:nth-child(26){
+    padding-left: 0;
+}
+.footer_middle ul li:nth-child(27){
+    padding-left:  0.7rem;
+}
+.footer_middle ul li.bull{
+    padding-right: 3rem;
+}
+.fa-regular, .far {
+    font-weight: 400;
+    font-size: 11px;
+    padding-left: 3px;
+    color: #1877f2;
+}
+.footer_bottom{
+    padding: 1rem 0;
+margin-bottom: 0;
+}
+.footer_bottom p{
+    font-size: 13px;
+    color: var(--second);
+    font-weight: 600;
+}
+/*======Footer part End====*/

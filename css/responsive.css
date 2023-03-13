@@ -1,0 +1,301 @@
+@media (max-width:1024px){
+    .container {
+        width: var(--container-width-lg);
+    }
+    .main_left {
+        width: 48%;
+    }
+    .main_left .text {
+        font-size: 1.4rem;
+        margin-top: -20px;
+        margin-left: 30px;
+        width: 100%;
+    }
+    .main_right {
+        width: 48%;
+    }
+    .footer_top ul {
+        width: 100%;
+    }
+    .footer_middle ul li:first-child {
+        padding-left: 0.7rem;
+    }
+    .footer_top ul li:first-child {
+        padding-left: 0.7rem;
+    }
+    .footer_middle ul li.bull {
+        padding-right: 2rem;
+    }
+    .footer_bottom p {
+        padding-left: 0.7rem;
+        padding-bottom: 1rem;
+    }
+}
+@media (min-width: 992px) and (max-width:1023px){
+    .main_left {
+        width: 50%;
+    }
+    .main_left .text {
+        font-size: 1.3rem;
+        margin-top: -17px;
+        margin-left: 29px;
+        max-width: 100%;
+    }
+    .main_right {
+        width: 48%;
+    }
+    form input:nth-child(3) {
+        font-size: 1.1rem;
+        padding: .6rem 7.50rem;
+        margin-top: 1.2rem;
+    }
+    .footer_top ul {
+        width: 100%;
+    }
+    .footer_middle ul li:first-child {
+        padding-left: 0.7rem;
+    }
+    .footer_top ul li:first-child {
+        padding-left: 0.7rem;
+    }
+    .footer_middle ul li.bull {
+        padding-right: 2rem;
+    }
+    .footer_bottom p {
+        padding-left: 0.7rem;
+        padding-bottom: 1rem;
+    }
+}
+/*--=====(max-width: 768)======
+============================----*/
+@media (min-width: 851px) and (max-width:991px){
+    .container {
+        width: var(--container-width-md);
+    }
+    .main_left {
+        width: 40%;
+    }
+    .main_left .text {
+        font-size: 1.3rem;
+        margin-top: 3px;
+        margin-left: 22px;
+    }
+    .main_right {
+        width: 54%;
+    }
+    .footer_top ul {
+        padding: 1rem 0;
+       max-width: 100%;
+}
+}
+@media (min-width: 769px) and (max-width:850px){
+    .container {
+        width: var(--container-width-sm);
+    }
+    .main_left {
+        width: 40%;
+    }
+    .main_left img {
+        width: 85%;
+        padding-top: 0rem;
+        padding-bottom: 1rem;
+    }
+    .main_left .text {
+        font-size: 1.2rem;
+        margin-top: -31px;
+        margin-left: 22px;
+        max-width: 100%;
+    }
+    .main_right {
+        padding-top: 4rem;
+        width: 56%;
+    }
+    .footer_top ul {
+        max-width: 83%;
+    }
+    .footer_top ul li a{
+        padding-left: 1rem;
+    }
+}
+@media (max-width: 768px){
+    .container {
+        width: var(--container-width-md);
+    }
+    .main_container {
+        display: block;
+        padding-bottom: 6rem;
+    }
+    .main_left {
+        width: 80%;
+        padding-top: 1.5rem;
+    }
+    .main_left img {
+        max-width: 60%;
+    }
+    .main_left .text {
+        font-size: 1.4rem;
+        margin-top: -16px;
+        margin-left: 39px;
+        max-width: 100%;
+    }
+    .main_right {
+        width: 71%;
+        padding-top: 2rem;
+        padding-left: 2rem;
+    }
+    form input {
+        font-size: 1rem;
+        padding-right: 12rem;
+        padding-top: 0.7rem;
+        padding-bottom: 0.7rem;
+        padding-left: 0.9rem;
+        max-width: 100%;
+        margin-bottom: 0;
+    }
+    form input:nth-child(3) {
+        font-size: 1rem;
+        padding: .6rem 9.45rem;
+        margin-top: 1.1rem;
+    }
+    .footer_top ul {
+        max-width: 64%;
+    }
+    .footer_middle ul {
+        max-width: 72%;
+    }
+    .footer_middle ul li:first-child {
+        padding-left: 0.7rem;
+    }
+    .footer_top ul li:first-child {
+        padding-left: 0.7rem;
+    }
+    .footer_bottom p {
+        padding-left: 0.7rem;
+        padding-bottom: 1rem;
+    }
+    .footer_middle ul li.bull {
+        padding-right: 1rem;
+    }
+}
+/*--=====(max-width: 600px)======
+============================----*/
+@media (max-width:600px){
+         .main_container {
+        display: block;
+        padding-bottom: 6rem;
+    }
+    .main_left {
+        width: 80%;
+        padding-top: 1.5rem;
+    }
+    .main_left img {
+        max-width: 60%;
+    }
+    .main_left .text {
+        font-size: 1.2rem;
+        margin-top: -16px;
+        margin-left: 28px;
+        max-width: 100%;
+    }
+    .main_right {
+        width: 78%;
+        padding-top: 3rem;
+    }
+    .footer_top ul{
+        max-width: 75%;
+    }
+    .footer_middle ul {
+        max-width: 80%;
+    }
+    .footer_middle ul li:first-child {
+        padding-left: 0.7rem;
+    }
+    .footer_top ul li:first-child {
+        padding-left: 0.7rem;
+    }
+    .footer_bottom p {
+        padding-left: 0.7rem;
+        padding-bottom: 1rem;
+    }
+}
+/*--=====(max-width: 380px)======
+============================----*/
+@media (min-width: 450px) and (max-width:500px){
+    .main_left .text {
+        margin-left: 21px;
+    }
+    .main_right {
+        margin: 0 auto;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+}
+@media (min-width: 380px) and (max-width:450px){
+    .main_right {
+        width: 85%;
+        padding-left: 2rem;
+        padding-right: 0rem;
+        margin-left: -1rem;
+    }
+    form input {
+        padding-right: 0rem;
+    }
+    form input:nth-child(3) {
+        padding: .6rem 3.5rem;
+    }
+    .login_area button {
+        padding: .6rem 0.7rem;
+    }
+    .main_left .text {
+        margin-left: 16px;
+    }
+}
+@media (max-width: 380px){
+    .main_container {
+        display: block;
+        padding-bottom: 4rem;
+    }
+    .main_left {
+        max-width: 100%;
+    }
+    .main_left img {
+        max-width: 100%;
+        padding-top: 2rem;
+    }
+    .main_left .text {
+        font-size: 1.2rem;
+        margin-top: 0px;
+        margin-left: 22px;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .main_right {
+        width: 100%;
+        padding-top: 3rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    form input {
+        padding-right: 4rem;
+        max-width: 100%;
+    }
+    form input:nth-child(3) {
+        padding: 0.6rem 4.75rem;
+        max-width: 100%;
+    }
+    .footer_top ul {
+        padding: 1rem 0;
+        max-width: 87%;
+        flex-wrap: wrap;
+    }
+    .footer_middle ul li:first-child {
+        padding-left: 0.7rem;
+    }
+    .footer_middle ul li.bull {
+        padding-right: 2rem;
+    }
+    .footer_bottom p {
+        padding-left: 0.7rem;
+        padding-bottom: 1rem;
+    }
+}
